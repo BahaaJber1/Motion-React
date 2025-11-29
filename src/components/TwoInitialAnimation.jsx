@@ -5,6 +5,8 @@ import { useState } from "react";
     - Initial is used to set the starting state of an animation before it begins.
     - Animate is used to define the end state of an animation.
     - Transition is used to customize the timing and behavior of the animation.
+	- The type property in transition can be set to "spring", "tween", "keyframes", or "inertia" to define the animation style.
+	- The duration property can be used only with tween type transition.
     - Stiffness can be only used with spring type transition, it defines the looseness of the spring.
 */
 
